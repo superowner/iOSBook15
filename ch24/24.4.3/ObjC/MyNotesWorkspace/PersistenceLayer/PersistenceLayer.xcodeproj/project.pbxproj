@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAA2269B1DCB45B8000E6E55 /* PersistenceLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA226991DCB45B8000E6E55 /* PersistenceLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAA226A91DCB46B6000E6E55 /* CoreDataDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA226A21DCB46B6000E6E55 /* CoreDataDAO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAA226AA1DCB46B6000E6E55 /* CoreDataDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA226A31DCB46B6000E6E55 /* CoreDataDAO.m */; };
+		CAA226AB1DCB46B6000E6E55 /* NoteDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA226A41DCB46B6000E6E55 /* NoteDAO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAA226AC1DCB46B6000E6E55 /* NoteDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA226A51DCB46B6000E6E55 /* NoteDAO.m */; };
+		CAA226AD1DCB46B6000E6E55 /* Note.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA226A71DCB46B6000E6E55 /* Note.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAA226AE1DCB46B6000E6E55 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA226A81DCB46B6000E6E55 /* Note.m */; };
+		CAA226C61DCB4F16000E6E55 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA226C51DCB4F16000E6E55 /* CoreData.framework */; };
+		CAA226E31DCB51BE000E6E55 /* NoteManagedObject+CoreDataClass.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA226DF1DCB51BE000E6E55 /* NoteManagedObject+CoreDataClass.h */; };
+		CAA226E41DCB51BE000E6E55 /* NoteManagedObject+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA226E01DCB51BE000E6E55 /* NoteManagedObject+CoreDataClass.m */; };
+		CAA226E51DCB51BE000E6E55 /* NoteManagedObject+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA226E11DCB51BE000E6E55 /* NoteManagedObject+CoreDataProperties.h */; };
+		CAA226E61DCB51BE000E6E55 /* NoteManagedObject+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA226E21DCB51BE000E6E55 /* NoteManagedObject+CoreDataProperties.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAA226961DCB45B8000E6E55 /* PersistenceLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PersistenceLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA226991DCB45B8000E6E55 /* PersistenceLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceLayer.h; sourceTree = "<group>"; };
+		CAA2269A1DCB45B8000E6E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA226A21DCB46B6000E6E55 /* CoreDataDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataDAO.h; sourceTree = "<group>"; };
+		CAA226A31DCB46B6000E6E55 /* CoreDataDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataDAO.m; sourceTree = "<group>"; };
+		CAA226A41DCB46B6000E6E55 /* NoteDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDAO.h; sourceTree = "<group>"; };
+		CAA226A51DCB46B6000E6E55 /* NoteDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDAO.m; sourceTree = "<group>"; };
+		CAA226A71DCB46B6000E6E55 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		CAA226A81DCB46B6000E6E55 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		CAA226C51DCB4F16000E6E55 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CAA226DF1DCB51BE000E6E55 /* NoteManagedObject+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NoteManagedObject+CoreDataClass.h"; sourceTree = "<group>"; };
+		CAA226E01DCB51BE000E6E55 /* NoteManagedObject+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoteManagedObject+CoreDataClass.m"; sourceTree = "<group>"; };
+		CAA226E11DCB51BE000E6E55 /* NoteManagedObject+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NoteManagedObject+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CAA226E21DCB51BE000E6E55 /* NoteManagedObject+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoteManagedObject+CoreDataProperties.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAA226921DCB45B8000E6E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA226C61DCB4F16000E6E55 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAA2268C1DCB45B8000E6E55 = {
+			isa = PBXGroup;
+			children = (
+				CAA226981DCB45B8000E6E55 /* PersistenceLayer */,
+				CAA226971DCB45B8000E6E55 /* Products */,
+				CAA226C41DCB4F16000E6E55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAA226971DCB45B8000E6E55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAA226961DCB45B8000E6E55 /* PersistenceLayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAA226981DCB45B8000E6E55 /* PersistenceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CAA226A11DCB46B6000E6E55 /* dao */,
+				CAA226A61DCB46B6000E6E55 /* domain */,
+				CAA226991DCB45B8000E6E55 /* PersistenceLayer.h */,
+				CAA2269A1DCB45B8000E6E55 /* Info.plist */,
+			);
+			path = PersistenceLayer;
+			sourceTree = "<group>";
+		};
+		CAA226A11DCB46B6000E6E55 /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				CAA226A21DCB46B6000E6E55 /* CoreDataDAO.h */,
+				CAA226A31DCB46B6000E6E55 /* CoreDataDAO.m */,
+				CAA226A41DCB46B6000E6E55 /* NoteDAO.h */,
+				CAA226A51DCB46B6000E6E55 /* NoteDAO.m */,
+			);
+			path = dao;
+			sourceTree = "<group>";
+		};
+		CAA226A61DCB46B6000E6E55 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				CAA226DF1DCB51BE000E6E55 /* NoteManagedObject+CoreDataClass.h */,
+				CAA226E01DCB51BE000E6E55 /* NoteManagedObject+CoreDataClass.m */,
+				CAA226E11DCB51BE000E6E55 /* NoteManagedObject+CoreDataProperties.h */,
+				CAA226E21DCB51BE000E6E55 /* NoteManagedObject+CoreDataProperties.m */,
+				CAA226A71DCB46B6000E6E55 /* Note.h */,
+				CAA226A81DCB46B6000E6E55 /* Note.m */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		CAA226C41DCB4F16000E6E55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAA226C51DCB4F16000E6E55 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CAA226931DCB45B8000E6E55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA226AB1DCB46B6000E6E55 /* NoteDAO.h in Headers */,
+				CAA226A91DCB46B6000E6E55 /* CoreDataDAO.h in Headers */,
+				CAA226AD1DCB46B6000E6E55 /* Note.h in Headers */,
+				CAA2269B1DCB45B8000E6E55 /* PersistenceLayer.h in Headers */,
+				CAA226E31DCB51BE000E6E55 /* NoteManagedObject+CoreDataClass.h in Headers */,
+				CAA226E51DCB51BE000E6E55 /* NoteManagedObject+CoreDataProperties.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CAA226951DCB45B8000E6E55 /* PersistenceLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA2269E1DCB45B8000E6E55 /* Build configuration list for PBXNativeTarget "PersistenceLayer" */;
+			buildPhases = (
+				CAA226911DCB45B8000E6E55 /* Sources */,
+				CAA226921DCB45B8000E6E55 /* Frameworks */,
+				CAA226931DCB45B8000E6E55 /* Headers */,
+				CAA226941DCB45B8000E6E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersistenceLayer;
+			productName = PersistenceLayer;
+			productReference = CAA226961DCB45B8000E6E55 /* PersistenceLayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAA2268D1DCB45B8000E6E55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "关东升";
+				TargetAttributes = {
+					CAA226951DCB45B8000E6E55 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CAA226901DCB45B8000E6E55 /* Build configuration list for PBXProject "PersistenceLayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAA2268C1DCB45B8000E6E55;
+			productRefGroup = CAA226971DCB45B8000E6E55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAA226951DCB45B8000E6E55 /* PersistenceLayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAA226941DCB45B8000E6E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAA226911DCB45B8000E6E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA226E61DCB51BE000E6E55 /* NoteManagedObject+CoreDataProperties.m in Sources */,
+				CAA226AE1DCB46B6000E6E55 /* Note.m in Sources */,
+				CAA226AC1DCB46B6000E6E55 /* NoteDAO.m in Sources */,
+				CAA226E41DCB51BE000E6E55 /* NoteManagedObject+CoreDataClass.m in Sources */,
+				CAA226AA1DCB46B6000E6E55 /* CoreDataDAO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAA2269C1DCB45B8000E6E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAA2269D1DCB45B8000E6E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAA2269F1DCB45B8000E6E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PersistenceLayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.PersistenceLayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CAA226A01DCB45B8000E6E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PersistenceLayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.PersistenceLayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAA226901DCB45B8000E6E55 /* Build configuration list for PBXProject "PersistenceLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA2269C1DCB45B8000E6E55 /* Debug */,
+				CAA2269D1DCB45B8000E6E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA2269E1DCB45B8000E6E55 /* Build configuration list for PBXNativeTarget "PersistenceLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA2269F1DCB45B8000E6E55 /* Debug */,
+				CAA226A01DCB45B8000E6E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAA2268D1DCB45B8000E6E55 /* Project object */;
+}
